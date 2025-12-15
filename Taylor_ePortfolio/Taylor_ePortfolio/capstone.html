@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CS499 Capstone Project | Taylor Jones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">Taylor Jones</a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="capstone.html" class="active">Capstone</a>
+        <a href="https://github.com/tayl0r-j" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="capstone.html" class="active">Capstone</a>
+    <a href="https://github.com/tayl0r-j" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="section" style="display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: start;">
+      <div>
+        <h1>CS499 Capstone Project</h1>
+        <h2 style="margin-top: 0.5rem; color: var(--text-muted); font-weight: 400;">Raid Tool Command Center for World of Warcraft Classic</h2>
+        <p class="section-intro">
+          A comprehensive demonstration of software engineering principles through the transformation 
+          of a Python/Dash application into a full-stack Java Spring Boot raid management system. 
+          This capstone showcases skills in software design, algorithms, databases, and professional communication.
+        </p>
+        <ul class="pill-list">
+            <li>Java 17</li>
+            <li>Spring Boot</li>
+            <li>Spring Data JPA</li>
+            <li>PostgreSQL</li>
+            <li>Hibernate</li>
+            <li>REST APIs</li>
+            <li>Gradle</li>
+          </ul>
+      </div>
+      <div style="align-self: start; margin-top: 20px;">
+        <a href="assets/pictures/raidtoolpic1.png" target="_blank" style="cursor: zoom-in;">
+          <img src="assets/pictures/raidtoolpic1.png" alt="Raid Tool Screenshot" style="width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+        </a>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <section class="section">
+      <div class="card" style="background: var(--bg-header); border: 1px solid var(--brand); padding: 1.5rem;">
+        <nav style="display: flex; flex-wrap: wrap; gap: 1.25rem; justify-content: center; align-items: center;">
+          <a href="#self-assessment" class="section-link">Self-Assessment</a>
+          <span style="color: var(--text-subtle);">•</span>
+          <a href="#code-review" class="section-link">Code Review</a>
+          <span style="color: var(--text-subtle);">•</span>
+          <a href="#original-artifact" class="section-link">Original Artifact</a>
+          <span style="color: var(--text-subtle);">•</span>
+          <a href="#enhancements" class="section-link">Enhancements</a>
+          <span style="color: var(--text-subtle);">•</span>
+          <a href="#narratives" class="section-link">Narratives</a>
+        </nav>
+      </div>
+    </section>
+   
+    <!-- Professional Self-Assessment -->
+    <section class="section" id="self-assessment">
+      <h2>Professional Self-Assessment</h2>
+      <div class="card">
+        <details open>
+          <summary style="cursor: pointer; font-size: 1.15rem; font-weight: 600; padding: 1rem 1.25rem; background: var(--bg-header); border: 2px solid var(--brand); border-radius: 8px; margin-bottom: 1.5rem; user-select: none; text-align: center;">
+            📄 Professional Self-Assessment (Click to Collapse/Expand)
+          </summary>
+          <div style="padding: 0.5rem 0;">
+            <p>
+              Completing my coursework in the Computer Science program and developing my ePortfolio has helped me clarify both my 
+              technical strengths and the professional standards I expect of myself as I transition into software engineering. 
+              Across the program, I moved beyond isolated assignments toward designing, refining, and maintaining systems that evolve 
+              over time. Building my capstone and its enhancements reinforced how deliberate design, clear communication, and disciplined 
+              iteration combine to produce software that is reliable, secure, and maintainable. This process shaped my professional goals
+              by grounding them in real development practices rather than theoretical outcomes.
+            </p>
+            
+            <h3>Communication and Collaboration</h3>
+            <p>
+              Having spent the past eleven years training social workers and therapists, clear and intentional communication is one of my most defining 
+              professional strengths. In that role, success depended on the ability to translate complex concepts into language that resonates with 
+              clients, colleagues, and organizational stakeholders. This experience has given me a people-first communication style that is not always 
+              common in software engineering, but is increasingly essential for building effective teams and delivering successful products. Years of practicing
+              active listening, critical thinking, and adaptability have honed my ability to solve problems both collaboratively and creatively.      
+            </p>
+
+            <p>
+              Throughout my computer science coursework, I applied these communication skills in a technical context by documenting design decisions, 
+              writing clear and purposeful narratives, and presenting my work in a professional manner. Whether through code comments, README files, 
+              or formal technical reports, I focused on making my reasoning transparent and accessible to both technical and non-technical audiences. 
+              This approach has allowed me to bridge gaps between technical implementation and real-world impact, ensuring that solutions are not only 
+              well-engineered but also well-understood.
+            </p>
+
+            <h3>Software Engineering</h3>
+
+            <p>
+              Throughout the Computer Science program, I developed a strong foundation in software engineering by focusing on structure, maintainability, 
+              and iterative improvement rather than simply producing working code. My coursework emphasized designing systems with clear separation of 
+              concerns, layered architecture, and consistent conventions that support long-term maintainability.
+            </p>
+
+            <p>
+              In my capstone project, I applied these principles by migrating a monolithic Python/Dash application to a well-architected Java Spring Boot 
+              system. This transformation involved implementing RESTful APIs, service layers, and repository patterns that promote modularity and testability. 
+              I prioritized writing clean, readable code. This experience reinforced the importance of thoughtful design and disciplined development practices in creating software that can evolve gracefully 
+              over time.
+            </p>
+
+            <p>
+              Enhancing an existing codebase reinforced the importance of disciplined iteration. Evaluating prior design decisions, refactoring safely, 
+              and improving functionality without breaking existing behavior strengthened my ability to work within established systems and contribute 
+              meaningfully to production-quality software.
+            </p>
+
+            <h3>Data Structures and Algorithms</h3>
+
+            <p>
+              My coursework strengthened my ability to select and apply appropriate data structures and algorithms to solve problems efficiently and intentionally. 
+              ather than focusing on abstract implementations alone, I learned to evaluate trade-offs such as time complexity, space usage, and readability when 
+              designing solutions.
+            </p>
+
+            <p>
+              Through applied projects and enhancement work, I implemented and optimized sorting, searching, and collection-based operations using lists, maps, and 
+              custom data structures. These experiences reinforced how algorithmic choices directly impact performance and scalability, particularly as data size and 
+              application complexity increase.
+            </p>
+
+            <p>
+              By revisiting and improving existing implementations, I developed a deeper understanding of algorithmic efficiency and refactoring. This process improved 
+              my ability to reason about performance, justify technical decisions, and write code that balances efficiency with maintainability in real-world scenarios.
+            </p>
+
+            <h3>Database</h3>
+
+            <p>
+              Throughout the Computer Science program, I developed practical experience designing and integrating databases within full-stack applications. Rather than treating 
+              data persistence as an isolated concern, I learned to model data in a way that supports application logic, scalability, and long-term maintainability.
+            </p>
+
+            <p>
+              In my capstone project, I implemented a relational database using PostgreSQL and integrated it with the application through JPA and Hibernate. This work 
+              involved defining entity relationships, managing schema evolution, and writing queries that efficiently supported application features. I gained hands-on 
+              experience configuring database connections, mapping objects to relational structures, and ensuring data consistency across the system.
+            </p>
+
+            <p> 
+              Enhancing the application to use a persistent database reinforced the importance of thoughtful schema design and clean separation between business logic 
+              and data access. These experiences strengthened my ability to work with production-style databases and prepared me to design data-driven systems that are 
+              both reliable and adaptable.
+            </p>
+
+            <h3>Security</h3>
+
+            <p>
+              Throughout the Computer Science program, I developed an understanding of security as a foundational concern rather than an afterthought. My coursework 
+              emphasized secure coding practices, proper configuration management, and awareness of common risks such as exposing sensitive data or tightly coupling 
+              credentials to source code.
+            </p>
+
+            <p>
+              In my capstone project, I applied these principles by separating sensitive configuration values from the codebase and managing them through environment 
+              variables. This approach reduced the risk of credential exposure and aligned the application with real-world security practices used in professional 
+              environments. I also implemented structured error handling and validation to ensure predictable behavior and prevent unintended data exposure. In this project,
+              I took specific precautions to safeguard against XSS and SQL Injection attacks by validating inputs and using parameterized queries.
+            </p>
+
+            <p>By incorporating security considerations into both design and implementation, I learned to balance functionality with risk mitigation. These 
+              experiences strengthened my ability to build software that is not only functional and maintainable, but also mindful of security, reliability, and 
+              responsible data handling.
+            </p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+
+    <!-- Code Review Video -->
+    <section class="section" id="code-review">
+      <h2>Code Review</h2>
+      <div class="card">
+        <p>
+          This project began with a comprehensive walkthrough of the original artifact, planned enhancements, and architectural decisions.
+          The review focused on how the monolithic Python/Dash application was reimagined as a maintainable Java Spring Boot system. I discussed
+          how planned enhancements will create a separation of concerns, implement RESTful APIs, and design a relational database schema.
+        </p>
+        <p>
+          Watch the code review video below for an in-depth explanation of the project's goals and technical approach:
+        </p>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1rem;">
+          <iframe 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 8px;"
+            src="https://www.youtube.com/embed/3JrWA7vgGd8" 
+            title="CS499 Capstone Code Review"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Original Artifact -->
+    <section class="section" id="original-artifact">
+      <h2>Original Artifact</h2>
+      <div class="card">
+        <h3>Python/Dash Dog Shelter Dashboard</h3>
+        <p>
+          The original artifact was a data visualization dashboard built with Python, Dash, and Plotly. It was designed 
+          to help animal shelter staff track and manage dog intake, adoption rates, and shelter capacity. The application 
+          featured interactive charts, filtering capabilities, and basic CRUD operations connected to a MongoDB database.
+        </p>
+        <p>
+          While functional, the artifact had several limitations:
+        </p>
+        <ul style="margin-left: 1.5rem; color: var(--text-muted);">
+          <li>Limited scalability due to monolithic architecture</li>
+          <li>No clear separation between business logic and presentation</li>
+          <li>Minimal validation and error handling</li>
+          <li>No comprehensive test coverage</li>
+          <li>Single-user design with no authentication or authorization</li>
+        </ul>
+        <p>
+          This artifact served as the foundation for demonstrating growth across multiple computer science categories.
+        </p>
+        <div style="margin-top: 1.5rem; text-align: center;">
+          <a class="btn" href="https://github.com/tayl0r-j/rescue-animal-dashboard" target="_blank" rel="noopener noreferrer">
+            <span class="button_top">View Original Artifact on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhancements & Domain Pivot -->
+    <section class="section" id="enhancements">
+      <h2>Enhancements & Domain Pivot</h2>
+      <div class="card">
+        <h3>Transformation: From Dog Dashboard to Raid Tool Command Center</h3>
+        <p>
+          Rather than making incremental refinements to the original Python/Dash application, 
+          I made a deliberate decision to re-design the system and pivot it to a domain I understand deeply: raid management for 
+          WoW: Classic. This shift allowed me to approach the project from a true stakeholder perspective while preserving and 
+          strengthening the core computer science objectives of the capstone.
+        </p>
+        <p>
+          The enhanced system was rebuilt as a full-stack Java Spring Boot application backed by a normalized PostgreSQL database. 
+          I introduced a relational data model to represent raid teams and members, implemented JPA repositories and service-layer 
+          logic to enforce data integrity, and exposed RESTful endpoints to support reliable CRUD operations and sorted roster 
+          retrieval. These enhancements significantly improved data consistency, query performance, and overall maintainability 
+          compared to the original implementation.
+        </p>
+        <p>
+          This domain pivot enabled me to demonstrate the same foundational skills required by the original artifact in a context
+          where I could reason like an end user and system owner. The result is a more meaningful, production-oriented artifact that 
+          reflects not only technical proficiency, but also thoughtful system design, stakeholder awareness, and professional software 
+          engineering practice.
+        </p>
+      </div>
+    </section>
+
+    <!-- Enhancement 1: Software Design & Engineering -->
+    <section class="section" id="enhancement-1">
+      <h2>Enhancement 1: Software Design & Engineering</h2>
+      <div class="card">
+        <h3>Migration to Java Spring Boot Architecture</h3>
+        <p>
+          I migrated the entire application from Python/Dash to Java with Spring Boot, implementing:
+        </p>
+        <ul style="margin-left: 1.5rem; color: var(--text-muted);">
+          <li><strong>RESTful API architecture:</strong> Clean separation of concerns with controllers, services, and repositories</li>
+          <li><strong>Dependency injection:</strong> Spring's IoC container for testable, maintainable code</li>
+          <li><strong>Layered architecture:</strong> Clear boundaries between presentation, business logic, and data access</li>
+          <li><strong>Error handling:</strong> Global exception handling with meaningful HTTP status codes and responses</li>
+          <li><strong>Input validation:</strong> Bean validation for request DTOs</li>
+        </ul>
+        <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+          <a class="btn" href="https://github.com/tayl0r-j/RaidPrepTools/releases/tag/capstone-enhancement1" target="_blank" rel="noopener noreferrer">
+            <span class="button_top">View Enhancement 1 on GitHub</span>
+          </a>
+          <a class="btn" href="assets/narratives/M3-Initial-Setup.docx" download>
+            <span class="button_top">Download Software Design & Engineering Enhancement Narrative</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhancement 2: Data Structures & Algorithms -->
+    <section class="section" id="enhancement-2">
+      <h2>Enhancement 2: Data Structures & Algorithms</h2>
+      <div class="card">
+        <h3>Complex Raid Management Algorithms</h3>
+        <p>
+          I implemented complex raid management algorithms including:
+        </p>
+        <ul style="margin-left: 1.5rem; color: var(--text-muted);">
+          <li><strong>Raid composition validation:</strong> Ensuring proper class/role distribution (tanks, healers, DPS)</li>
+          <li><strong>Loot distribution logic:</strong> Priority-based assignment with conflict resolution</li>
+          <li><strong>Roster optimization:</strong> Suggesting optimal raid compositions based on available players</li>
+          <li><strong>Efficient data structures:</strong> HashMap for O(1) player lookups, TreeSet for sorted priority queues</li>
+        </ul>
+        <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+          <a class="btn" href="https://github.com/tayl0r-j/RaidPrepTools/releases/tag/enhancement-2" target="_blank" rel="noopener noreferrer">
+            <span class="button_top">View Enhancement 2 on GitHub</span>
+          </a>
+          <a class="btn" href="assets/narratives/M4-DSA.docx" download>
+            <span class="button_top">Download DSA Enhancement Narrative</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhancement 3: Databases -->
+    <section class="section" id="enhancement-3">
+      <h2>Enhancement 3: Databases</h2>
+      <div class="card">
+        <h3>PostgreSQL Database Design & Optimization</h3>
+        <p>
+          I redesigned the data layer from MongoDB to PostgreSQL, implementing:
+        </p>
+        <ul style="margin-left: 1.5rem; color: var(--text-muted);">
+          <li><strong>Normalized relational schema:</strong> Players, Characters, Raids, RaidRoster, LootDistribution tables</li>
+          <li><strong>Foreign key constraints:</strong> Ensuring referential integrity</li>
+          <li><strong>Indexing strategy:</strong> Optimized queries for common lookup patterns</li>
+          <li><strong>Transactions:</strong> ACID-compliant operations for roster changes and loot assignments</li>
+          <li><strong>JPA/Hibernate integration:</strong> ORM with Spring Data repositories for clean data access</li>
+        </ul>
+        <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+          <a class="btn" href="https://github.com/tayl0r-j/RaidPrepTools/releases/tag/enhancement-3" target="_blank" rel="noopener noreferrer">
+            <span class="button_top">View Enhancement 3 on GitHub</span>
+          </a>
+          <a class="btn" href="assets/narratives/M5-Database.docx" download>
+            <span class="button_top">Download Database Enhancement Narrative</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Taylor Jones</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const mobileNav = document.getElementById('mobileNav');
+
+    navToggle.addEventListener('click', () => {
+      mobileNav.classList.toggle('open');
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

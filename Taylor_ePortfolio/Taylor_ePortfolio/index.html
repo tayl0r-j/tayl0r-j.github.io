@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Taylor Jones | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">Taylor Jones</a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="capstone.html">Capstone</a>
+        <a href="https://github.com/tayl0r-j" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" class="active">Home</a>
+    <a href="capstone.html">Capstone</a>
+    <a href="https://github.com/tayl0r-j" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Backend-Focused Software Engineer</h1>
+      <p>
+        I build practical, reliable tools with clean architecture, REST APIs, and
+        data-driven design. This portfolio highlights projects from my Computer
+        Science degree, including my CS499 Capstone.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn" href="capstone.html">
+          <span class="button_top">View Capstone</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Featured Project</h2>
+      <div class="card">
+        <h3>CS499 Capstone – Raid Tool Command Center</h3>
+        <p>
+          A full-stack raid management dashboard for World of Warcraft Classic raid leaders,
+          built with Java and Spring Boot. It focuses on clean APIs, maintainable architecture,
+          and real guild workflows.
+        </p>
+        <div class="card-actions">
+          <a class="btn" href="capstone.html">
+            <span class="button_top">View Capstone</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What I Work With</h2>
+      <div class="card">
+        <ul class="pill-list">
+          <li>Java &amp; Spring Boot</li>
+          <li>Python</li>
+          <li>SQL &amp; PostgreSQL</li>
+          <li>REST APIs</li>
+          <li>Data Structures &amp; Algorithms</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Taylor Jones</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const mobileNav = document.getElementById('mobileNav');
+
+    navToggle.addEventListener('click', () => {
+      mobileNav.classList.toggle('open');
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
